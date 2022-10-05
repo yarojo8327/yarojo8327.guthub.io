@@ -1,0 +1,119 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(#e6e5e5, #ffffff);
+    height: 100%;
+    font-family: "mouse-300", Arial, Helvetica, sans-serif;
+    color: #6A6A6A;
+    margin-bottom: 100px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;
+}
+.profile {
+    background-color: #00BBC9;
+}
+
+.profile .card-profile {
+    width: 18rem;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cover {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.cover .hotkey {
+    text-align: right;
+    padding: 30px 20px;
+}
+
+.cover .hotkey h1 {
+    width: 100%;
+    text-align: right;
+    color: #c7c2c2;
+}
+
+.cover .hotkey small {
+    font-size: 1rem;
+    color: #9c9898;
+    margin-top: -30px;
+    font-weight: 600;
+}
+
+.cover .profile-title {
+    padding: 10px;
+    border-bottom: 2px solid #CCC;
+    font-size: 1.1rem;
+    color: #6A6A6A;
+    font-weight: bold;
+}
+
+.custom-button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.cover .work-exp {
+    padding: 5px 0px;
+}
+
+.cover .work-exp h6 span {
+    float: right;
+    font-size: .8rem;
+}
+
+.cover .work-exp i {
+    font-size: .9rem;
+}
+
+.cover .education {
+    padding: 20px 0px;
+}
+
+.cover .education .education-item {
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    background-color: #ecebeb3d;
+    padding: 10px 15px;
+    font-size: .9rem;
+}
+.cover .profess-cover {
+    padding: 20px 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.cover .profess-cover .prog-row {
+    width: 100%;
+    text-align: left;
+    padding: 8px 2px;
+    font-size: .9rem;
+}
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.cover .profess-cover .progress-bar {
+    background-color: #00BBC9;
+}
